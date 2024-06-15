@@ -54,6 +54,7 @@ logging.basicConfig(level=logging.INFO, filename='log.txt', filemode='a+',
   )
 
 global_frame = create_waiting_image()
+success = False
 lock = threading.Lock()
 pose_dict = ["noPose", "SunRight", "SunLeft", "CloseLight", "WindRight", "WindLeft", "Pray", "WindForward"]
 
@@ -69,25 +70,36 @@ def read_camera_setting(filename):
     return int(file.read().strip())
 
 
-
 def get_frame():
-  global global_frame
+  global global_frame, success
   filename = 'camera_setting.txt'
   camera_index = read_camera_setting(filename)
   print(f"Camera index read from {filename}: {camera_index}")
+
   cap = cv2.VideoCapture(camera_index)
-  while cap.isOpened():
+
+  while True:
+    if not cap.isOpened():
+      print("Camera is not opened. Reinitializing...")
+      cap = cv2.VideoCapture(camera_index)
+      if not cap.isOpened():
+        success = False
+        print("Failed to reinitialize the camera.")
+        break
+
     success, frame = cap.read()
     if not success:
       print("Ignoring empty camera frame.")
-      # If loading a video, use 'break' instead of 'continue'.
       continue
+
     lock.acquire()
     global_frame = frame.copy()
     lock.release()
+
     # cv2.imshow("camera", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
       break
+
   cap.release()
 
 def test_connect():
@@ -117,7 +129,7 @@ def test_connect():
     time.sleep(5)
         
 def detect_frame():
-    global is_connect, s, global_frame
+    global is_connect, s, global_frame, success
 
     # For webcam input:
     while True:
@@ -133,6 +145,9 @@ def detect_frame():
         lock.release()
 
         pose, hand_landmark = hands_detect(image)
+        if not success:
+          pose = "NotCaptureCamera"
+
         if hand_landmark:
           image = draw_hand_landmarks(image, hand_landmark)
 
