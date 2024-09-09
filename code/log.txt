@@ -9,3 +9,2732 @@
     data = s.recv(1024)
 ConnectionResetError: [WinError 10054] 遠端主機已強制關閉一個現存的連線。
 
+[20240614 20:57:27 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:30 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:34 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:37 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:40 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:43 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:46 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:49 WARNING  30] Testing Connect Timeout: timed out
+[20240614 20:57:52 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:17 INFO     20] Testing Connect...
+[20240614 21:37:18 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:21 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:24 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:27 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:30 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:33 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:36 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:39 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:42 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:45 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:48 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:51 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:54 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:37:57 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:38:00 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:38:03 WARNING  30] Testing Connect Timeout: timed out
+[20240614 21:38:06 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:22:41 INFO     20] Testing Connect...
+[20240614 23:22:42 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:42 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:43 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:44 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:45 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:46 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:47 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:48 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:49 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:50 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:22:51 ERROR    40] detect_frame Failed: Traceback (most recent call last):
+  File "D:\Unity\Blue_tear_pose_detection\code\socket_client.py", line 146, in detect_frame
+    if not success:
+NameError: name 'success' is not defined
+
+[20240614 23:23:12 INFO     20] Testing Connect...
+[20240614 23:23:13 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:23:16 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:23:19 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:23:22 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:23:25 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:29 INFO     20] Testing Connect...
+[20240614 23:28:30 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:33 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:36 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:38 INFO     20] Testing Connect Success
+[20240614 23:28:48 ERROR    40] socket connect Failed: timed out
+[20240614 23:28:49 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:52 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:55 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:28:58 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:01 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:04 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:08 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:11 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:14 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:17 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:29:19 INFO     20] Testing Connect Success
+[20240614 23:30:28 INFO     20] Testing Connect...
+[20240614 23:30:28 INFO     20] Testing Connect Success
+[20240614 23:35:13 INFO     20] Testing Connect...
+[20240614 23:35:14 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:17 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:20 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:23 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:26 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:29 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:32 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:35 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:38 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:41 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:44 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:47 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:50 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:53 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:56 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:35:59 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:02 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:05 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:08 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:11 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:15 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:18 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:21 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:24 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:27 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:36:30 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:37:54 INFO     20] Testing Connect...
+[20240614 23:37:55 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:37:58 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:01 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:04 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:07 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:10 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:13 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:16 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:19 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:22 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:25 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:28 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:31 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:34 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:37 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:40 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:43 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:46 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:49 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:52 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:55 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:38:58 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:01 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:04 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:07 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:10 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:13 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:16 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:19 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:22 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:25 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:28 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:31 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:34 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:37 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:40 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:48 INFO     20] Testing Connect...
+[20240614 23:39:49 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:52 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:55 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:39:58 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:01 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:04 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:07 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:10 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:13 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:16 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:19 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:22 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:25 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:28 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:31 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:34 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:37 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:40 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:43 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:46 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:49 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:52 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:55 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:40:58 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:01 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:04 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:07 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:10 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:13 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:16 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:19 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:22 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:25 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:28 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:31 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:34 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:37 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:40 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:44 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:47 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:50 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:53 WARNING  30] Testing Connect Timeout: timed out
+[20240614 23:41:56 WARNING  30] Testing Connect Timeout: timed out

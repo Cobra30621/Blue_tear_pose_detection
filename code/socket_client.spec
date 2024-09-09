@@ -1,31 +1,25 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 
-block_cipher = None
-
-
 a = Analysis(
     ['socket_client.py'],
     pathex=[],
     binaries=[],
-    datas=[('D:\\Anaconda\\envs\\blue_tear\\Lib\\site-packages\\mediapipe\\modules', 'mediapipe\\modules')],
+    datas=[('D:\\Unity\\Blue_tear_pose_detection\\venv\\Lib\\site-packages\\mediapipe', 'mediapipe/')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
-    win_no_prefer_redirects=False,
-    win_private_assemblies=False,
-    cipher=block_cipher,
     noarchive=False,
+    optimize=0,
 )
-pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+pyz = PYZ(a.pure)
 
 exe = EXE(
     pyz,
     a.scripts,
     a.binaries,
-    a.zipfiles,
     a.datas,
     [],
     name='socket_client',

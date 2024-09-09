@@ -29,7 +29,11 @@ Install package for the project
 
 ## Export
 - 主程式: socket_client.py
-- 在終端機執行: pyinstaller code/socket_client.py
+- 在終端機執行:
+```
+cd code
+pyinstaller -F --add-data "D:\Unity\Blue_tear_pose_detection\venv\Lib\site-packages\mediapipe;mediapipe/" socket_client.py
+```
 
 
 ## Unity Project Link

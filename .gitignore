@@ -1,1 +1,8 @@
-*.txt
+
+.idea
+build
+*.exe
+*/dist
+*.spec
+
+log.txt
