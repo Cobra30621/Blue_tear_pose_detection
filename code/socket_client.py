@@ -47,10 +47,10 @@ def create_waiting_image(text="Waiting for camera to read", width=640, height=48
 
   return mirrored_image
 
-logging.basicConfig(level=logging.INFO, filename='log.txt', filemode='a+',
-  format='[%(asctime)s %(levelname)-8s %(levelno)s] %(message)s',
-  datefmt='%Y%m%d %H:%M:%S',
-  encoding='utf-8'
+logging.basicConfig(level=logging.INFO, filename='log.txt', filemode='a+', # 設置日誌級別、文件名、文件模式
+  format='[%(asctime)s %(levelname)-8s %(levelno)s] %(message)s', # 設置日誌格式
+  datefmt='%Y%m%d %H:%M:%S', # 設置日期格式
+  encoding='utf-8' # 設置編碼格式
   )
 
 global_frame = create_waiting_image()
@@ -62,7 +62,7 @@ HOST = '127.0.0.1'
 PORT = 11000
 
 is_connect = False
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # 創建一個TCP/IP套接字
 
 
 def read_camera_setting(filename):
@@ -70,7 +70,7 @@ def read_camera_setting(filename):
     return int(file.read().strip())
 
 
-def get_frame():
+def get_frame(): # 獲取攝像頭畫面
   global global_frame, success
   filename = 'camera_setting.txt'
   camera_index = read_camera_setting(filename)
@@ -102,7 +102,7 @@ def get_frame():
 
   cap.release()
 
-def test_connect():
+def test_connect(): # 測試連接
   global is_connect
   print("Testing Connect...")
   logging.info('Testing Connect...')
@@ -128,56 +128,76 @@ def test_connect():
         logging.error("Testing Connect Failed: " + str(e))
     time.sleep(5)
         
-def detect_frame():
+def detect_frame(): # 檢測畫面
     global is_connect, s, global_frame, success
+    tracked_hand = None  # Initialize tracked_hand outside the loop
 
-    # For webcam input:
+    # 持續運行的主循環
     while True:
-      try:
-        pose = "noPose"
-        lock.acquire()
         try:
-          image = global_frame.copy()
-        except:
-          error_str = traceback.format_exc()
-          print(error_str)
-          logging.error("detect_frame Failed: " + str(error_str))
-        lock.release()
+            # 初始化姿势为"noPose"
+            pose = "noPose"
+            
+            # 获取当前帧的副本
+            lock.acquire()
+            try:
+                image = global_frame.copy()
+            except:
+                # 如果获取帧失败，记录错误信息
+                error_str = traceback.format_exc()
+                print(error_str)
+                logging.error("detect_frame Failed: " + str(error_str))
+            lock.release()
 
-        pose, hand_landmark = hands_detect(image)
-        if not success:
-          pose = "NotCaptureCamera"
+            # 进行手势检测
+            pose, hand_landmark, tracked_hand = hands_detect(image, tracked_hand)                   ############## 使用hands_detect函數進行手勢檢測
+            
+            # 如果攝像頭未成功捕獲畫面，將姿勢設置為"NotCaptureCamera"
+            if not success:
+                pose = "NotCaptureCamera"
 
-        if hand_landmark:
-          image = draw_hand_landmarks(image, hand_landmark)
+            # 如果检测到手部标记点，在图像上绘制这些点
+            if hand_landmark:
+                image = draw_hand_landmarks(image, hand_landmark)
 
-        try:
-          if is_connect :
-            s.sendall(bytes(pose, encoding='utf-8'), )
-            data = s.recv(1024)
-            # print('Received', repr(data))
-        except WindowsError as e:
-          print(str(e))
-          logging.error("socket connect Failed: " + str(e))
-          is_connect = False
-          s.close()
-          s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            try:
+                # 如果与服务器连接，发送检测到的姿势
+                if is_connect:
+                    s.sendall(bytes(pose, encoding='utf-8'))
+                    data = s.recv(1024)
+                    # 接收服务器的响应（当前未使用）
+                    # print('Received', repr(data))
+            except WindowsError as e:
+                # 处理Windows特定的连接错误
+                print(str(e))
+                logging.error("socket connect Failed: " + str(e))
+                is_connect = False
+                s.close()
+                # 重新创建socket对象
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            except Exception as e:
+                # 处理其他可能的错误
+                error_str = traceback.format_exc()
+                print(error_str)
+                logging.error("send message Failed: " + str(error_str))
+
+            # 水平翻转图像（镜像效果）
+            image = cv2.flip(image, 1)
+            # 显示处理后的图像
+            cv2.imshow('MediaPipe hands', image)
+
+            # 检查是否按下'q'键来退出循环
+            if cv2.waitKey(1) == ord('q'):
+                break    # 按下 q 鍵停止
+
+            # 打印当前检测到的姿势
+            print(pose)
+
         except Exception as e:
-          error_str = traceback.format_exc()
-          print(error_str)
-          logging.error("send message Failed: " + str(error_str))
-
-        image = cv2.flip(image, 1)
-        cv2.imshow('MediaPipe hands', image)
-
-        if cv2.waitKey(1) == ord('q'):
-            break    # 按下 q 鍵停止
-        print(pose)
-
-      except Exception as e:
-        error_str = traceback.format_exc()
-        print(error_str)
-        logging.error("detect_frame Failed: " + str(error_str))
+            # 捕获并记录函数中可能出现的任何异常
+            error_str = traceback.format_exc()
+            print(error_str)
+            logging.error("detect_frame Failed: " + str(error_str))
 
 a = threading.Thread(target=get_frame)
 a.daemon=True

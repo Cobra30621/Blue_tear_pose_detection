@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['socket_client.py'],
+    ['d:/bluetear/Blue_tear_pose_detection/code/socket_client.py'],
     pathex=[],
     binaries=[],
-    datas=[('D:\\Unity\\Blue_tear_pose_detection\\venv\\Lib\\site-packages\\mediapipe', 'mediapipe/')],
+    datas=[('C:\\Users\\po han\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\mediapipe', 'mediapipe/')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

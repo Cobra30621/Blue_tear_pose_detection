@@ -34,6 +34,8 @@ Install package for the project
 cd code
 pyinstaller -F --add-data "D:\Unity\Blue_tear_pose_detection\venv\Lib\site-packages\mediapipe;mediapipe/" socket_client.py
 ```
+寶涵版(輸出到dist資料夾)
+python -m PyInstaller -F --add-data "C:\Users\po han\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mediapipe;mediapipe/" code\socket_client.py
 
 
 ## Unity Project Link
