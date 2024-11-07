@@ -148,7 +148,7 @@ def detect_frame(): # 檢測畫面
             lock.release()
 
             # 进行手势检测
-            pose, hand_landmark = hands_detect(image)                   ############## 使用hands_detect函數進行手勢檢測
+            pose, hand_landmark = detect_hands(image)                   ############## 使用hands_detect函數進行手勢檢測
             
             # 如果攝像頭未成功捕獲畫面，將姿勢設置為"NotCaptureCamera"
             if not success:
