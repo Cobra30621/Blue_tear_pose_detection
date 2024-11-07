@@ -46,6 +46,44 @@ def pose_detect(hand_angles):
     else:
         return "noPose"
 
+# 新增：讀取hand_range.txt檔案，並將長方形座標存到hand_range中
+def load_hand_range(file_path):
+    hand_range = {}
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.startswith('x:'):
+                hand_range['x'] = list(map(float, line.strip().split(':')[1].split()))
+            elif line.startswith('y:'):
+                hand_range['y'] = list(map(float, line.strip().split(':')[1].split()))
+    return hand_range
+
+hand_range = load_hand_range('hand_range.txt')  # 新增：讀取hand_range.txt
+
+# 新增：在影像上畫出hand_range的範圍
+def draw_hand_range(image):
+    image.flags.writeable = True  # 確保影像是可寫的
+    cv2.rectangle(image,
+                  (int(hand_range['x'][0] * image.shape[1]), int(hand_range['y'][0] * image.shape[0])),
+                  (int(hand_range['x'][1] * image.shape[1]), int(hand_range['y'][1] * image.shape[0])),
+                  (0, 255, 0), 2)  # 繪製綠色矩形
+
+
+    return image
+
+
+# 篩選在 hand_range 中的手座標
+def filter_hands_in_range(multi_hand_landmarks):
+    if not multi_hand_landmarks:
+        return []
+
+    filtered_hands = []
+    for hand_landmark in multi_hand_landmarks:
+        x_coords = [lm.x for lm in hand_landmark.landmark]
+        y_coords = [lm.y for lm in hand_landmark.landmark]
+        if (hand_range['x'][0] <= min(x_coords) <= hand_range['x'][1] and
+            hand_range['y'][0] <= min(y_coords) <= hand_range['y'][1]):
+            filtered_hands.append(hand_landmark)
+    return filtered_hands
 
 
 def hands_detect(image, tracked_hand=None):  # Add tracked_hand parameter
@@ -60,14 +98,15 @@ def hands_detect(image, tracked_hand=None):  # Add tracked_hand parameter
     image.flags.writeable = True
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
-    if results.multi_hand_landmarks:
+    multi_hand_landmarks = filter_hands_in_range(results.multi_hand_landmarks)
+    if len(multi_hand_landmarks) > 0:
         if tracked_hand is None:  # No hand tracked yet
-            hand_landmark = next(iter(results.multi_hand_landmarks)) # 獲取第一個檢測到的手的節點
+            hand_landmark = multi_hand_landmarks[0] # 獲取第一個檢測到的手的節點
             tracked_hand = copy.copy(hand_landmark) # Store the first detected hand
         else: # we are already tracking one hand
             min_dist = float('inf') # 初始化最小距離為無限大
             closest_hand = None # 初始化最接近的手為None
-            for hand_landmark in results.multi_hand_landmarks: # 遍歷所有檢測到的手的節點
+            for hand_landmark in multi_hand_landmarks: # 遍歷所有檢測到的手的節點
                 dist = 0 # 初始化距離為0
                 for i in range(21): # 遍歷所有節點
                     dist += (hand_landmark.landmark[i].x - tracked_hand.landmark[i].x)**2 + (hand_landmark.landmark[i].y - tracked_hand.landmark[i].y)**2
@@ -94,7 +133,14 @@ def hands_detect(image, tracked_hand=None):  # Add tracked_hand parameter
         tracked_hand = None
         pose = "noPose"
 
-    return pose, hand_landmark_origin, tracked_hand  # Return tracked_hand
+
+    hand_count = len(results.multi_hand_landmarks) if results.multi_hand_landmarks is not None else 0
+    print(f"鏡頭中手數量 :{hand_count}, "
+          f"在條件框的手數量: {len(multi_hand_landmarks)}, "
+          f"動作: {pose}")
+
+    return pose, hand_landmark_origin
+
 
 def draw_hand_landmarks(image, hand_landmark):
     # 確認影像是可寫的

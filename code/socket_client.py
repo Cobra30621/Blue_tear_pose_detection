@@ -49,8 +49,7 @@ def create_waiting_image(text="Waiting for camera to read", width=640, height=48
 
 logging.basicConfig(level=logging.INFO, filename='log.txt', filemode='a+', # 設置日誌級別、文件名、文件模式
   format='[%(asctime)s %(levelname)-8s %(levelno)s] %(message)s', # 設置日誌格式
-  datefmt='%Y%m%d %H:%M:%S', # 設置日期格式
-  encoding='utf-8' # 設置編碼格式
+  datefmt='%Y%m%d %H:%M:%S' # 設置日期格式
   )
 
 global_frame = create_waiting_image()
@@ -130,7 +129,6 @@ def test_connect(): # 測試連接
         
 def detect_frame(): # 檢測畫面
     global is_connect, s, global_frame, success
-    tracked_hand = None  # Initialize tracked_hand outside the loop
 
     # 持續運行的主循環
     while True:
@@ -150,7 +148,7 @@ def detect_frame(): # 檢測畫面
             lock.release()
 
             # 进行手势检测
-            pose, hand_landmark, tracked_hand = hands_detect(image, tracked_hand)                   ############## 使用hands_detect函數進行手勢檢測
+            pose, hand_landmark = hands_detect(image)                   ############## 使用hands_detect函數進行手勢檢測
             
             # 如果攝像頭未成功捕獲畫面，將姿勢設置為"NotCaptureCamera"
             if not success:
@@ -159,6 +157,9 @@ def detect_frame(): # 檢測畫面
             # 如果检测到手部标记点，在图像上绘制这些点
             if hand_landmark:
                 image = draw_hand_landmarks(image, hand_landmark)
+
+            # 绘制手部标记点的范围
+            image = draw_hand_range(image)
 
             try:
                 # 如果与服务器连接，发送检测到的姿势
@@ -183,6 +184,9 @@ def detect_frame(): # 檢測畫面
 
             # 水平翻转图像（镜像效果）
             image = cv2.flip(image, 1)
+
+
+
             # 显示处理后的图像
             cv2.imshow('MediaPipe hands', image)
 
@@ -190,8 +194,6 @@ def detect_frame(): # 檢測畫面
             if cv2.waitKey(1) == ord('q'):
                 break    # 按下 q 鍵停止
 
-            # 打印当前检测到的姿势
-            print(pose)
 
         except Exception as e:
             # 捕获并记录函数中可能出现的任何异常
