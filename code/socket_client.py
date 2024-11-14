@@ -129,12 +129,13 @@ def test_connect(): # 測試連接
         
 def detect_frame(): # 檢測畫面
     global is_connect, s, global_frame, success
+    tracked_hand = None  # Initialize tracked_hand outside the loop
 
     # 持續運行的主循環
     while True:
         try:
             # 初始化姿势为"noPose"
-            pose = "noPose"
+            poses = ["noPose"]
             
             # 获取当前帧的副本
             lock.acquire()
@@ -148,14 +149,14 @@ def detect_frame(): # 檢測畫面
             lock.release()
 
             # 进行手势检测
-            pose, hand_landmark = detect_hands(image)                   ############## 使用hands_detect函數進行手勢檢測
-            
+            poses, hand_landmarks, tracked_hand = detect_hands(image, tracked_hand)
+
             # 如果攝像頭未成功捕獲畫面，將姿勢設置為"NotCaptureCamera"
             if not success:
-                pose = "NotCaptureCamera"
+                poses = ["NotCaptureCamera"]
 
             # 如果检测到手部标记点，在图像上绘制这些点
-            if hand_landmark:
+            for hand_landmark in hand_landmarks:
                 image = draw_hand_landmarks(image, hand_landmark)
 
             # 绘制手部标记点的范围
@@ -164,7 +165,7 @@ def detect_frame(): # 檢測畫面
             try:
                 # 如果与服务器连接，发送检测到的姿势
                 if is_connect:
-                    s.sendall(bytes(pose, encoding='utf-8'))
+                    s.sendall(bytes(','.join(poses), encoding='utf-8'))  # 将数组转换为以逗号分隔的字符串
                     data = s.recv(1024)
                     # 接收服务器的响应（当前未使用）
                     # print('Received', repr(data))

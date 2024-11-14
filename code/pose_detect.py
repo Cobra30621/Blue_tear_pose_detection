@@ -150,8 +150,8 @@ def detect_hands(image, tracked_hand=None):  # Add tracked_hand parameter
     檢測到的手勢和手的節點。
     """
     width, height = image.shape[1], image.shape[0]
-    pose = "noPose"
-    hand_landmark_origin = None
+    poses = []  # 新增：用於儲存所有手勢的列表
+    hand_landmarks = []  # 新增：用於儲存所有手的原始節點
 
     image.flags.writeable = False
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -161,16 +161,7 @@ def detect_hands(image, tracked_hand=None):  # Add tracked_hand parameter
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
     multi_hand_landmarks = filter_hands_in_range(results.multi_hand_landmarks)
-    if multi_hand_landmarks:
-        if tracked_hand is None:  # No hand tracked yet
-            hand_landmark = multi_hand_landmarks[0]  # 獲取第一個檢測到的手的節點
-            tracked_hand = copy.copy(hand_landmark)  # Store the first detected hand
-        else:  # we are already tracking one hand
-            closest_hand = find_closest_hand(multi_hand_landmarks, tracked_hand)
-            if closest_hand is not None:
-                hand_landmark = closest_hand  # 更新手節點
-                tracked_hand = copy.copy(hand_landmark)  # 更新追蹤的手節點
-
+    for hand_landmark in multi_hand_landmarks:
         hand_landmark_origin = copy.copy(hand_landmark)  # 複製手節點
         for landmark in hand_landmark.landmark:
             landmark.x *= width
@@ -178,18 +169,15 @@ def detect_hands(image, tracked_hand=None):  # Add tracked_hand parameter
         if hand_landmark.landmark:
             angle_list = calculate_hand_angles(hand_landmark.landmark)
             pose = detect_pose(angle_list)
-
-    elif tracked_hand:
-        # Hand lost, reset tracked hand
-        tracked_hand = None
-        pose = "noPose"
+            poses.append(pose)  # 新增：將檢測到的手勢加入列表
+            hand_landmarks.append(hand_landmark_origin)  # 新增：將手的原始骨架加入列表
 
     hand_count = len(results.multi_hand_landmarks) if results.multi_hand_landmarks is not None else 0
     print(f"鏡頭中手數量 :{hand_count}, "
           f"在條件框的手數量: {len(multi_hand_landmarks)}, "
-          f"動作: {pose}")
+          f"動作: {poses}")
 
-    return pose, hand_landmark_origin
+    return poses, hand_landmarks, tracked_hand  # 修改：回傳手勢列表和手的原始節點列表
 
 def find_closest_hand(multi_hand_landmarks, tracked_hand):
     """
@@ -229,27 +217,4 @@ def draw_hand_landmarks(image, hand_landmark):
     image.setflags(write=1)  # 將影象設置為可寫
     mp_drawing.draw_landmarks(image, hand_landmark, mp_hands.HAND_CONNECTIONS)  # 在影象上繪製節點標註
     return image
-
-if __name__ == '__main__':
-    cap = cv2.VideoCapture(0)
-    tracked_hand = None  # Initialize tracked_hand outside the loop
-
-    while cap.isOpened():
-        success, image = cap.read()
-        if not success:
-            continue
-
-        pose, hand_landmark_origin = detect_hands(image, tracked_hand)  # pass and receive the tracked_hand
-
-        if hand_landmark_origin:
-            image = draw_hand_landmarks(image, hand_landmark_origin)
-
-        print(pose)  # or display pose in a nicer way within the image
-        cv2.imshow('MediaPipe Holistic', image)
-
-        if cv2.waitKey(1) & 0xFF == 27:
-            break
-
-    cap.release()
-
 
