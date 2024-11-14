@@ -131,14 +131,14 @@ def filter_hands_in_range(multi_hand_landmarks):
 
     filtered_hands = []
     for hand_landmark in multi_hand_landmarks:
-        x_coords = [lm.x for lm in hand_landmark.landmark]
-        y_coords = [lm.y for lm in hand_landmark.landmark]
-        if (hand_range['x'][0] <= min(x_coords) <= hand_range['x'][1] and
-            hand_range['y'][0] <= min(y_coords) <= hand_range['y'][1]):
+        # 檢測手腕的座標
+        wrist_coord = hand_landmark.landmark[0]
+        if (hand_range['x'][0] <= wrist_coord.x <= hand_range['x'][1] and
+            hand_range['y'][0] <= wrist_coord.y <= hand_range['y'][1]):
             filtered_hands.append(hand_landmark)
     return filtered_hands
 
-def detect_hands(image, tracked_hand=None):  # Add tracked_hand parameter
+def detect_hands(image):  # Add tracked_hand parameter
     """
     檢測影像中的手並返回手勢和手的節點。
     
@@ -177,7 +177,7 @@ def detect_hands(image, tracked_hand=None):  # Add tracked_hand parameter
           f"在條件框的手數量: {len(multi_hand_landmarks)}, "
           f"動作: {poses}")
 
-    return poses, hand_landmarks, tracked_hand  # 修改：回傳手勢列表和手的原始節點列表
+    return poses, hand_landmarks  # 修改：回傳手勢列表和手的原始節點列表
 
 def find_closest_hand(multi_hand_landmarks, tracked_hand):
     """
@@ -202,19 +202,19 @@ def find_closest_hand(multi_hand_landmarks, tracked_hand):
             closest_hand = hand_landmark  # 更新最接近的手
     return closest_hand
 
-def draw_hand_landmarks(image, hand_landmark):
+def draw_hand_landmarks(image, hand_landmarks):
     """
     在影像上繪製手的節點標註。
     
     參數:
     image: 要繪製的影像。
-    hand_landmark: 要繪製的手的節點。
+    hand_landmarks: 要繪製的手的節點列表。
     
     返回:
     繪製了手節點的影像。
     """
     # 確認影像是可寫的
-    image.setflags(write=1)  # 將影象設置為可寫
-    mp_drawing.draw_landmarks(image, hand_landmark, mp_hands.HAND_CONNECTIONS)  # 在影象上繪製節點標註
+    image = image.copy()  # 創建影像的副本以確保影像是可寫的
+    for hand_landmark in hand_landmarks:
+        mp_drawing.draw_landmarks(image, hand_landmark, mp_hands.HAND_CONNECTIONS)  # 在影象上繪製節點標註
     return image
-

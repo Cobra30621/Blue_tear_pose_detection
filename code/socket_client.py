@@ -129,7 +129,6 @@ def test_connect(): # 測試連接
         
 def detect_frame(): # 檢測畫面
     global is_connect, s, global_frame, success
-    tracked_hand = None  # Initialize tracked_hand outside the loop
 
     # 持續運行的主循環
     while True:
@@ -149,15 +148,14 @@ def detect_frame(): # 檢測畫面
             lock.release()
 
             # 进行手势检测
-            poses, hand_landmarks, tracked_hand = detect_hands(image, tracked_hand)
+            poses, hand_landmarks = detect_hands(image)
 
             # 如果攝像頭未成功捕獲畫面，將姿勢設置為"NotCaptureCamera"
             if not success:
                 poses = ["NotCaptureCamera"]
 
             # 如果检测到手部标记点，在图像上绘制这些点
-            for hand_landmark in hand_landmarks:
-                image = draw_hand_landmarks(image, hand_landmark)
+            image = draw_hand_landmarks(image, hand_landmarks)
 
             # 绘制手部标记点的范围
             image = draw_hand_range(image)
