@@ -177,6 +177,9 @@ def detect_hands(image):  # Add tracked_hand parameter
           f"在條件框的手數量: {len(multi_hand_landmarks)}, "
           f"動作: {poses}")
 
+    if len(poses) == 0:
+        poses.append("noPose")
+
     return poses, hand_landmarks  # 修改：回傳手勢列表和手的原始節點列表
 
 def find_closest_hand(multi_hand_landmarks, tracked_hand):
